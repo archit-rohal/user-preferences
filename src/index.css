@@ -22,19 +22,21 @@ form label:nth-of-type(2) {
     font-weight: 600;
 }
 
-body.small {
-    font-size: small;
-}
+body {
+    &.small {
+        font-size: small;
+    }
 
-body.medium {
-    font-size: medium;
-}
+    &.medium {
+        font-size: medium;
+    }
 
-body.large {
-    font-size: large;
-}
+    &.large {
+        font-size: large;
+    }
 
-body.dark {
-    color: white;
-    background-color: black;
+    &.dark {
+        color: white;
+        background-color: black;
+    }
 }
