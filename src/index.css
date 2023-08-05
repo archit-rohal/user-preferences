@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --font-family: Poppins, sans-serif;
+}
+
+body {
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+nav a {
+    margin: 0 1rem;
+}
+
+form label:nth-of-type(2) {
+    margin-left: 1.5rem;
+}
+
+.active {
+    color: red;
+    font-weight: 600;
+}
+
+body.small {
+    font-size: small;
+}
+
+body.medium {
+    font-size: medium;
+}
+
+body.large {
+    font-size: large;
+}
+
+body.dark {
+    color: white;
+    background-color: black;
+}
